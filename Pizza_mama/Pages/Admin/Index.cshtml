@@ -1,0 +1,23 @@
+﻿@page
+@model Pizza_mama.Pages.Admin.IndexModel
+@{
+}
+
+<h1>Veuillez vous authentifier</h1>
+
+<br/>
+
+@if (Model.ErrorMessage)
+{
+    <div class="alert alert-danger" role="alert">
+        <p><b>ERREUR :</b> Ce compte n'est pas valide</p>
+    </div>
+}
+
+<br/>
+
+<form method="post">
+    <input type="text" name="username" placeholder="Login"><br /><br />
+    <input type="password" name="password" placeholder="Mot de passe"><br /><br />
+    <button>Se connecter</button>
+</form>

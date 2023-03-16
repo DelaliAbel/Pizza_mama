@@ -1,0 +1,97 @@
+﻿@font-face {
+    font-family: 'inter';
+    src: url('/asset/inter-fonts/Inter-Regular.ttf');
+}
+
+ul {
+    color : blue;
+}
+
+body {
+    background: linear-gradient(0deg, rgba(0, 0, 150, 0.3), rgba(255, 0, 150, 0.3)), url("/Images/menu_background.jpg"), no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0px
+}
+
+.home_page_body {
+    background: linear-gradient(0deg, rgba(0, 0, 150, 0.3), rgba(255, 0, 150, 0.3)), url("/Images/main_background.jpg"), no-repeat center center fixed;
+}
+
+a.voir_menu, font-face {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+    color: #DD7836;
+    display: block;
+    font-family: 'inter'
+}
+
+.centered {
+    position : fixed;
+    left : 50%;
+    top : 50%;
+    transform : translate(-50%, -50%)
+}
+#small_logo{
+    margin-left : 35px;
+    margin-top : 25px;
+}
+
+h1 {
+    color: white;
+    font-family : 'inter';
+    background-color : #DD7836;
+    display: inline;
+    padding : 8px 22px
+}
+.menu_title {
+    margin-top : 45px;
+    margin-bottom : 45px;
+}
+
+.menu_list, font-face {
+    color: white;
+    margin-left: 50px;
+    display: inline-block
+}
+
+.menu_list_item {
+    font-size : 20px;
+    margin : 30px 0px
+}
+
+.menu_list_title {
+    font-weight:bold
+}
+
+.menu_list_price {
+    color: #DD7836
+}
+
+.menu_list_ingredient {
+    font-size : 15px;
+    color: #C8C8C8;
+    display:block;
+    margin-top: 4px;
+}
+
+.menu_list_vegetarien {
+    font-size: 9px;
+    font-weight : bold;
+    background : #DD7836;
+    border-radius: 10px;
+    margin-top : 5px;
+    display: inline-block;
+    padding : 4px 8px;
+}
+
+.path_group {
+    fill : green
+}
+
+.path_group:hover {
+    fill : orange
+}
